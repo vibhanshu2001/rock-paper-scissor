@@ -24,7 +24,7 @@ function win(user, comp) {
   compScore_span.innerHTML = compScore;
   var userChoice_div = document.getElementById(user);
   // result_p.innerHTML       = "You win👍👍";
-  result_p.innerHTML       = "✅You choose "+user + "✅Computer choose "+comp+"👉 You win👎👎";
+  result_p.innerHTML       = "✅You choose "+user + "✅Computer choose "+comp+"👉 You win👍👍";
   userChoice_div.classList.add("green-glow");
   setTimeout(function() {userChoice_div.classList.remove("green-glow");}, 800);
 }
